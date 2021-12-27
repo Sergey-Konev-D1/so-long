@@ -338,8 +338,7 @@ void rename_enemy(t_vars *vars, char a, char b)
 					move_enemy(vars, i, j);
 			}
 		}
-	}
-	vars->random_for_enemy += 1;	
+	}	
 }
 
 int draw_map(t_vars *vars)
