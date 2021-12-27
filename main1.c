@@ -2,7 +2,6 @@
 #include "stdio.h"
 #include "minilibx/mlx.h"
 #include "so_long.h"
-//#include "minilibx/mlx_png.h"
 #include <string.h>
 int	close_window(t_vars *vars);
 
@@ -56,20 +55,6 @@ char	*ft_itoa(int i)
 	str[cnt] = '\0';
 	return (val(str, i, cnt));
 }
-
-// typedef struct	s_vars {
-// 	void	*mlx;
-// 	void	*win;
-// 	char 	**arr;
-// 	int		length;
-// 	int		count;
-// 	int		move_player1;
-// 	int 	fd;
-// 	int 	collectibles;
-// 	int 	players;
-// 	int 	exits;
-// }				t_vars;
-
 
  void func_errors(int num)
  {
