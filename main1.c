@@ -160,7 +160,6 @@ int	handle_keypress(int keysym, t_vars *vars)
 	if (keysym == 53)
 	{
 		mlx_destroy_window(vars->mlx, vars->win);
-		//system ("leaks a.out");
 		exit (0);
 	}
 	if (keysym == 126 || keysym == 13)  //up
@@ -339,7 +338,7 @@ void rename_enemy(t_vars *vars, char a, char b)
 					move_enemy(vars, i, j);
 			}
 		}
-	}
+	}	
 }
 
 int draw_map(t_vars *vars)
