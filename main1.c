@@ -5,6 +5,13 @@
 #include <string.h>
 int	close_window(t_vars *vars);
 
+void func1()
+{
+}
+void func2()
+{
+}
+
 static int	get_size(int i)
 {
 	int	cnt;
